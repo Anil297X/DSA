@@ -2,29 +2,23 @@ class Solution {
     public int countSubmatrices(int[][] grid, int k) {
         int m = grid.length;
         int n = grid[0].length;
-        int count=0;
-        int buffer[][] = new int[m][n];
+        int buffer[] = new int[n];
+        int count = 0;
 
         for(int i = 0; i < m; i++){
+            int sum = 0;
             for(int j = 0; j < n; j++){
-                buffer[i][j] = grid[i][j];
-                //left
-                if(j>0){
-                    buffer[i][j] += buffer[i][j-1]; 
-                }
 
-                //top
+                sum = grid[i][j] + (j>0 ? grid[i][j-1]:0);
+                grid[i][j]=sum;
+
                 if(i>0){
-                    buffer[i][j] += buffer[i-1][j]; 
+                    sum+=buffer[j];
                 }
-
-                //subtracting diagonal
-                if(i>0 && j>0){
-                    buffer[i][j] -= buffer[i-1][j-1]; 
-                }
+                buffer[j] = sum;
 
                 // check condition
-                if(buffer[i][j] <= k){
+                if(sum <= k){
                     count++;
                 }
             }
