@@ -1,0 +1,225 @@
+# Find Level Order Successor in a Binary Tree (BFS)
+
+## Problem Statement
+
+Given the `root` of a binary tree and a `key`, return the **Level Order Successor** of the given key.
+
+The **Level Order Successor** is the node that appears immediately after the given node during a **Level Order Traversal (Breadth First Search)**.
+
+If the given node is the last node in the traversal or the key does not exist, return `null`.
+
+### Example
+
+```
+        12
+       /  \
+      7    1
+     /    / \
+    9    10  5
+```
+
+Level Order Traversal:
+
+```
+12 → 7 → 1 → 9 → 10 → 5
+```
+
+| Key | Successor |
+| --- | --------- |
+| 12  | 7         |
+| 7   | 1         |
+| 1   | 9         |
+| 10  | 5         |
+| 5   | null      |
+
+---
+
+# Approach
+
+We use **Breadth First Search (BFS)** with a **Queue**.
+
+### Idea
+
+1. Insert the root into the queue.
+2. Process nodes one by one.
+3. Before checking whether the current node is the key, add its children to the queue.
+4. If the current node is the key, the next node in the queue is its level order successor.
+5. Return `queue.peek()`.
+
+Why `queue.peek()`?
+
+Because after processing the current node, the front of the queue always contains the **next node that will be visited in BFS**.
+
+---
+
+# Java Code
+
+public TreeNode findSuccessor(TreeNode root, int key){
+    if (root == null) {
+      return null;
+    }
+
+    Queue<TreeNode> queue = new LinkedList<>();
+    queue.offer(root);
+
+    while (!queue.isEmpty()) {
+      int levelSize = queue.size();
+        TreeNode currentNode = queue.poll();
+        if (currentNode.left != null) {
+          queue.offer(currentNode.left);
+        }
+        if (currentNode.right != null) {
+          queue.offer(currentNode.right);
+        }
+        if (currentNode.val = key) {
+          break;
+        }
+    }
+    return queue.peek(); 
+  }
+
+---
+
+# Dry Run
+
+Tree
+
+```
+        12
+       /  \
+      7    1
+     /    / \
+    9    10  5
+```
+
+Key = **7**
+
+### Step 1
+
+Queue
+
+```
+[12]
+```
+
+Process 12
+
+Add children
+
+```
+[7,1]
+```
+
+12 != 7
+
+---
+
+### Step 2
+
+Process 7
+
+Queue becomes
+
+```
+[1]
+```
+
+Add child
+
+```
+[1,9]
+```
+
+Current node is the key.
+
+Break the loop.
+
+Return
+
+```
+queue.peek()
+
+↓
+
+1
+```
+
+Answer = **1**
+
+---
+
+# Algorithm
+
+```
+Insert root into queue
+
+While queue is not empty
+
+    Remove first node
+
+    Add left child
+
+    Add right child
+
+    If current node is the key
+
+        Return front of queue
+
+Return null
+```
+
+---
+
+# Time Complexity
+
+Every node is visited at most once.
+
+**Time Complexity:** `O(n)`
+
+---
+
+# Space Complexity
+
+In the worst case, the queue stores one complete level of the tree.
+
+**Space Complexity:** `O(n)`
+
+---
+
+# Key Learning
+
+* Uses **Breadth First Search (BFS)**.
+* Queue follows **FIFO (First In First Out)**.
+* Children are added before checking the key.
+* `queue.peek()` gives the next node in level order.
+* This problem does **not** require recursion.
+
+---
+
+# Common Mistakes
+
+❌ Using assignment instead of comparison
+
+```java
+if (currentNode.val = key)
+```
+
+✅ Correct
+
+```java
+if (currentNode.val == key)
+```
+
+❌ Using `poll()` instead of `peek()` at the end
+
+```java
+return queue.poll();
+```
+
+This removes the successor from the queue unnecessarily.
+
+✅ Correct
+
+```java
+return queue.peek();
+```
