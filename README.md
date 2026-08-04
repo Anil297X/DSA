@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Anil297X/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [1260-shift-2d-grid](https://github.com/Anil297X/DSA/tree/master/1260-shift-2d-grid) |
+| [3731-find-missing-elements](https://github.com/Anil297X/DSA/tree/master/3731-find-missing-elements) |
 ## Matrix
 |  |
 | ------- |
@@ -109,4 +110,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Anil297X/DSA/tree/master/0021-merge-two-sorted-lists) |
+## Hash Table
+|  |
+| ------- |
+| [3731-find-missing-elements](https://github.com/Anil297X/DSA/tree/master/3731-find-missing-elements) |
+## Sorting
+|  |
+| ------- |
+| [3731-find-missing-elements](https://github.com/Anil297X/DSA/tree/master/3731-find-missing-elements) |
 <!---LeetCode Topics End-->
