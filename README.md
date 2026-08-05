@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Anil297X/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Anil297X/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1260-shift-2d-grid](https://github.com/Anil297X/DSA/tree/master/1260-shift-2d-grid) |
 | [3731-find-missing-elements](https://github.com/Anil297X/DSA/tree/master/3731-find-missing-elements) |
 ## Matrix
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/Anil297X/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Anil297X/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 ## String
 |  |
@@ -117,5 +119,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/Anil297X/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [3731-find-missing-elements](https://github.com/Anil297X/DSA/tree/master/3731-find-missing-elements) |
 <!---LeetCode Topics End-->
