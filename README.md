@@ -121,4 +121,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0628-maximum-product-of-three-numbers](https://github.com/Anil297X/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [3731-find-missing-elements](https://github.com/Anil297X/DSA/tree/master/3731-find-missing-elements) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/Anil297X/DSA/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
