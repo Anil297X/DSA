@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0856-score-of-parentheses](https://github.com/Anil297X/DSA/tree/master/0856-score-of-parentheses) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Anil297X/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 ## Greedy
 |  |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anil297X/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0856-score-of-parentheses](https://github.com/Anil297X/DSA/tree/master/0856-score-of-parentheses) |
 ## Recursion
 |  |
 | ------- |
@@ -144,4 +146,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Anil297X/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0856-score-of-parentheses](https://github.com/Anil297X/DSA/tree/master/0856-score-of-parentheses) |
 <!---LeetCode Topics End-->
