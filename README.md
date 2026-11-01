@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Anil297X/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Anil297X/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1260-shift-2d-grid](https://github.com/Anil297X/DSA/tree/master/1260-shift-2d-grid) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Anil297X/DSA/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3731-find-missing-elements](https://github.com/Anil297X/DSA/tree/master/3731-find-missing-elements) |
 ## Matrix
 |  |
@@ -129,11 +130,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Anil297X/DSA/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3731-find-missing-elements](https://github.com/Anil297X/DSA/tree/master/3731-find-missing-elements) |
 ## Sorting
 |  |
 | ------- |
 | [0628-maximum-product-of-three-numbers](https://github.com/Anil297X/DSA/tree/master/0628-maximum-product-of-three-numbers) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Anil297X/DSA/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3731-find-missing-elements](https://github.com/Anil297X/DSA/tree/master/3731-find-missing-elements) |
 ## Database
 |  |
