@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Anil297X/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/Anil297X/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Anil297X/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1260-shift-2d-grid](https://github.com/Anil297X/DSA/tree/master/1260-shift-2d-grid) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Anil297X/DSA/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/Anil297X/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Anil297X/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Anil297X/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/Anil297X/DSA/tree/master/3723-maximize-sum-of-squares-of-digits) |
